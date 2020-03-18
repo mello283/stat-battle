@@ -1,0 +1,73 @@
+body{
+	background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-arURrqoPAyQ%2FTfbPCu33LtI%2FAAAAAAAAASU%2F8PTncXby-NM%2Fs1600%2FMatrix%2Bin%2BCMD.jpg&f=1");
+
+}
+form {
+  margin:0 auto;
+	width:200px;
+	border:10px solid #55ffaa;
+	border-radius:20px;
+	box-shadow:7px 7px 6px;
+	padding:5px;
+	background-color:#123456;
+
+}
+#label {
+color:#aadd00;
+}
+#reg {
+	background-color: 00ff00;
+	color: black;
+	border-radius:20px;
+	padding: 5px 40px;
+	margin:4px;
+	text-decoration:none;
+}
+#signIn {
+	background-color: #55ffaa;
+    border:none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 0px;
+    cursor: pointer;
+	border-radius:20px;
+}
+#user {
+
+	border:10px solid #55ffaa;
+	border-radius:10px;
+}
+#pass {
+	position:static;
+	border:10px solid #55ffaa;
+	border-radius:10px;
+}
+#side {
+	margin-bottom: 300px;
+	height:375px;
+	width:200px;
+	overflow:scroll;
+	margin:0 auto;
+	border:10px solid #00ff00;
+	border-radius:20px;
+	box-shadow:7px 7px 6px;
+	margin-top:10px;
+	background-color: #b3a512;
+}
+#title {
+	width:200px;
+	height:55px;
+	margin:0 auto;
+	margin-top:10px;
+	border:10px solid #0000ff;
+	border-radius:20px;
+	background-color:#55ffaa;
+	color:white;
+	margin-bottom:10px;
+	padding:4px;
+
+}

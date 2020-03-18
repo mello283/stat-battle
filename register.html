@@ -1,0 +1,28 @@
+<html>
+<body>
+<h1>Register your account here!</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+<form id="registerForm" action="register.php" method="post">
+<h3 id="reg">Username:</h3> <input id="user" class="form-control required" type="text" name="user_name"><br>
+<h3 id="reg">Password:</h3> <input id="pass" class="form-control required" type="password" name="password"><br>
+<h2>Stat range can be from 50 to 150 and the total of all 3 must not exceed 450. Page will reset if stats are invalid.</h2>
+<h3 id="reg">Stat 1:</h3> <input id="stat1" class="form-control required" type="text" name="stat1"><br>
+<h3 id="reg">Stat 2:</h3> <input id="stat2" class="form-control required" type="text" name="stat2"><br>
+<h3 id="reg">Stat 3:</h3> <input id="stat3" class="form-control required" type="text" name="stat3"><br>
+<h3 id="reg">Element:</h3> 
+<input id="ele" type="radio" name="element" value="Fire" checked="checked">Fire</input><br>
+<input id="ele" type="radio" name="element" value="Ice">Ice</input><br>
+<input id="ele" type="radio" name="element" value="Earth">Earth</input><br>
+<h3>Alignment: </h3>
+<input id="align" type="radio" name="alignment" value="Light" checked="checked">Light</input><br>
+<input id="align" type="radio" name="alignment" value="Dark">Dark</input><br>
+<input id="reg" type="submit" name="reg" value="Register"><br>
+</form>
+<script>
+$(document).ready(function(){
+$("#registerForm").validate();
+});
+</script>
+</body>
+</html>
