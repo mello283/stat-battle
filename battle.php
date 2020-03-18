@@ -235,7 +235,8 @@ echo "p2 element: " . $p2e . "<br>";
 //if elements are a tie
 if ($p1e == $p2e)
 {
-	echo "Elements are the same";
+	echo "Elements are the same . <br>";
+	echo "No points added";
 }
 
 //check for wins and losses
@@ -243,42 +244,42 @@ if ($p1e == $p2e)
 if($p1e == "Fire" && $p2e == "Ice")
 {
 	$p1total += 200;
-	echo $player1 . " has the winning element";
+	echo $player1 . " has the winning element +200 points";
 }
 
 if($p1e == "Ice" && $p2e == "Earth")
 {
 	$p1total += 200;
-	echo $player1 . " has the winning element";
+	echo $player1 . " has the winning element +200 points";
 }
 
 if($p1e == "Earth" && $p2e == "Fire")
 {
 	$p1total += 200;
-	echo $player1 . " has the winning element";
+	echo $player1 ." has the winning element +200 points";
 }
 
 //loses
 if($p2e == "Fire" && $p1e == "Ice")
 {
 	$p2total += 200;
-	echo $player2 . " has the winning element";
+	echo $player2 . " has the winning element +200 points";
 }
 
 if($p2e == "Ice" && $p1e == "Earth")
 {
 	$p2total += 200;
-	echo $player2 . " has the winning element";
+	echo $player2 . " has the winning element +200 points";
 }
 
 if($p2e == "Earth" && $p1e == "Fire")
 {
 	$p2total += 200;
-	echo $player2 . " has the winning element";
+	echo $player2 . " has the winning element +200 points";
 }
 
 //Determine a winner
-echo " +200 points!" . "<br>" . $player1 . ": " . $p1total . "<br>" . $player2 . ": " . $p2total . "<hr>" . "<br>";
+echo "<br>" . $player1 . ": " . $p1total . "<br>" . $player2 . ": " . $p2total . "<hr>" . "<br>";
 
 
 //Add exp
